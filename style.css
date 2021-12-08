@@ -1,0 +1,162 @@
+/* the navigation section styles */
+.header * {
+    display:inline;
+}
+
+.header {
+    background-color:white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    box-shadow: 0 0 25px 0 black;
+    align-items: center;
+    padding: 5px;
+}
+
+.logo {
+    width:23%;
+    padding:1%;
+}
+
+.links {
+    display:inline;
+    list-style-type: none;
+    font-family: sans-serif;
+    align-content: right;
+    word-spacing: 30px;
+}
+
+
+.logo {
+    text-align: center;
+}
+
+.header .linkedin {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.header .email {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/* the main body section styles */
+body {
+    display: inline-block;
+    margin-top: 60px;
+}
+
+section {
+    display:inline-block;
+    background-image: url("Images/joe-woods-4Zaq5xY5M_c-unsplash\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+.container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    float:left;
+    background-color: white;
+}
+
+p {
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: merriweather, serif;
+    font-size: 30px;
+    float:left;
+    margin-right: 20px;
+    margin-left: 10px;
+    height: 100px;
+    width: 190px;
+}
+
+.content p {
+    text-align:left;
+}
+.skills { 
+    background-color: hsla(241, 84%, 64%, 0.3);
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.skills img {
+    float:left;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+.skills h2 {
+    float:left;
+    margin-right: 10px;
+    margin-left: 10px;
+    height:140px;
+    width: 100px;
+}
+
+.skills p {
+    text-align: left;
+}
+
+.interests {
+    background-color: hsla(305, 46%, 48%, 0.3);
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom:10px;
+    width: 100%;
+}
+
+.interests img {
+    float:left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.interests h2 {
+    float:left;
+    margin-right: 10px;
+    margin-left: 10px;
+    height:120px;
+    width: 100px;
+}
+
+.interests p {
+   text-align: left;
+}
+
+/* the footer section styles */
+.footer {
+    position: fixed;
+}
+.footerBar {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+}
+
+footer a {
+    float: right;
+    width: 120px;
+}
