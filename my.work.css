@@ -114,6 +114,7 @@ h4 {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    padding:10px;
 }
 
 .goodaypic {
@@ -121,13 +122,15 @@ h4 {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    padding:10px;
 }
 
 .dhspic{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 40%;
+    padding:10px;
 }
 button {
     background-image: linear-gradient(#0dccea, #0d70ea);
@@ -163,3 +166,13 @@ footer a {
     float: right;
     width: 120px;
 }
+
+@media only screen and (max-width: 600px) {
+    .flexContainer { 
+        flex-direction: column;
+    }
+
+    .senior .homeland .gooday {
+        width:100%;
+    }
+  }
